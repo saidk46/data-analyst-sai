@@ -16,16 +16,16 @@ Overview of the Projects.
 
 **Methodology:**
 1.	Data Collection and Preparation:
-o	Load the Dataset: The dataset was sourced from the Vancouver city open data portal and stored in an Amazon S3 bucket named foodhousing-raw-sai.
-o	Data Cleaning: Using AWS Glue DataBrew, we performed profiling and cleaning to address missing values, correct data types, and remove duplicates.
+• Load the Dataset: The dataset was sourced from the Vancouver city open data portal and stored in an Amazon S3 bucket named foodhousing-raw-sai.
+•	Data Cleaning: Using AWS Glue DataBrew, we performed profiling and cleaning to address missing values, correct data types, and remove duplicates.
 2.	Descriptive Statistics:
-o	Calculate Summary Statistics: Key variables were summarized to include the total number of unresolved issues per area, comparing these with the total units in each geographic location.
+•	Calculate Summary Statistics: Key variables were summarized to include the total number of unresolved issues per area, comparing these with the total units in each geographic location.
 3.	Data Visualization:
-o	Visual Representations: We created visualizations to illustrate findings, such as bar charts showing unresolved issues by area.
+•	Visual Representations: We created visualizations to illustrate findings, such as bar charts showing unresolved issues by area.
 4.	Insights and Findings:
-o	Summarize Insights: We tracked the number of units operating with unresolved issues and compared this across different areas in Vancouver. This information helps city authorities take steps to improve the process of clearing issues or resolving building problems, providing better living conditions for residents.
+•	Summarize Insights: We tracked the number of units operating with unresolved issues and compared this across different areas in Vancouver. This information helps city authorities take steps to improve the process of clearing issues or resolving building problems, providing better living conditions for residents.
 5.	Recommendations:
-o	Actionable Steps: Based on our findings, we recommend targeted regulatory actions to address areas with high numbers of unresolved issues, ensuring quicker resolution and compliance with by-laws.
+•	Actionable Steps: Based on our findings, we recommend targeted regulatory actions to address areas with high numbers of unresolved issues, ensuring quicker resolution and compliance with by-laws.
 
 **Tools and Technologies:**
 •	Amazon S3: For storing raw and transformed data.
@@ -54,27 +54,27 @@ o	Actionable Steps: Based on our findings, we recommend targeted regulatory acti
 
 **Methodology:**
 1.	Data Collection and Preparation:
-o	Load the dataset from S3 storage (s3://foodhousing-trf-sai/Rental_Records/Data-Cleaning/System/).
-o	Perform initial data cleaning to handle missing values, correct data types, and ensure data consistency.
+•	Load the dataset from S3 storage (s3://foodhousing-trf-sai/Rental_Records/Data-Cleaning/System/).
+•	Perform initial data cleaning to handle missing values, correct data types, and ensure data consistency.
 
 2.	Descriptive Statistics:
-o	Generate summary statistics for key variables such as the total number of units and issues across different areas.
+•	Generate summary statistics for key variables such as the total number of units and issues across different areas.
 
 3.	Data Visualization:
-o	Create visualizations to illustrate key insights:
-	Bar Charts: Showing the number of unresolved issues and total units by area.
-	Histograms and Boxplots: To analyze the distribution of continuous variables like the total number of units and issues.
-	Heatmaps: Visualizing the correlation between different variables.
+•	Create visualizations to illustrate key insights:
+•	Bar Charts: Showing the number of unresolved issues and total units by area.
+•	Histograms and Boxplots: To analyze the distribution of continuous variables like the total number of units and issues.
+•	Heatmaps: Visualizing the correlation between different variables.
 
 4.	Issue Rate Analysis:
-o	Calculate the issue rate for each area by comparing the total number of unresolved issues with the total units.
-o	Identify areas with high issue rates to prioritize for intervention.
+•	Calculate the issue rate for each area by comparing the total number of unresolved issues with the total units.
+•	Identify areas with high issue rates to prioritize for intervention.
 
 5.	Insights and Findings:
-o	Summarize findings based on visualizations and statistical analyses, highlighting notable trends and patterns, such as areas with the highest and lowest issue rates.
+•	Summarize findings based on visualizations and statistical analyses, highlighting notable trends and patterns, such as areas with the highest and lowest issue rates.
 
 6.	Conclusion:
-o	Discuss the implications of the findings and suggest further actions or data-driven decisions that could help in addressing the unresolved rental issues more effectively.
+•	Discuss the implications of the findings and suggest further actions or data-driven decisions that could help in addressing the unresolved rental issues more effectively.
 
 
 
