@@ -56,7 +56,6 @@ Overview of the Projects.
    
    •	Presentation: For stakeholders, communicating important findings and suggesting future actions.
 
-![image](https://github.com/user-attachments/assets/25990da3-e528-4876-a73c-a93acc2683e0)
 
 # Project 2: Exploratory Data Analysis
 
@@ -188,6 +187,9 @@ The data wrangling process involved various datasets, including:
 
 •A cleaned and transformed HR and OHS dataset ready for analysis, available in a suitable format (e.g., CSV, Excel Database).
 
+![image](https://github.com/user-attachments/assets/a4d079e5-47d7-41a1-b112-503f71613ca5)
+
+
 
 # Project 4: Data Quality and Control #
 
@@ -256,6 +258,7 @@ The project focused on the following key areas:
 •Scheduled regular reports to review data quality trends and performance against established KPIs.
 
 7. Feedback Mechanism
+   
 •Established a feedback loop to continually assess and improve data quality processes based on user input and observed results.
 
 **Tools and Technologies**
@@ -280,5 +283,6 @@ The project focused on the following key areas:
 **Timeline**
 
 •Expected completion of the project: 8 weeks, including assessment, implementation, training, and monitoring setup.
+
 
 
