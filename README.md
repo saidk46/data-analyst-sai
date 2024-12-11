@@ -12,13 +12,16 @@ Overview of the Projects.
 **Dataset:** The dataset includes information about rental properties in Vancouver that have five or more units and currently have unresolved by-law issues. The key features are:
 
 •	Geo_Local_Area: Geographic location of the rental units
+
 •	Total Units: Number of rental units
+
 •	Total Issues: Number of unresolved rental issues
 
 **Methodology:**
 1.	Data Collection and Preparation:
    
    • Load the Dataset: The dataset was sourced from the Vancouver city open data portal and stored in an Amazon S3 bucket named foodhousing-raw-sai.
+   
    •	Data Cleaning: Using AWS Glue DataBrew, we performed profiling and cleaning to address missing values, correct data types, and remove duplicates.
 
 3.	Descriptive Statistics:
@@ -40,13 +43,17 @@ Overview of the Projects.
 **Tools and Technologies:**
 
    •	Amazon S3: For storing raw and transformed data.
+   
    •	AWS Glue DataBrew: For data profiling and cleaning.
+   
    •	AWS Glue ETL: For extracting, transforming, and loading data.
 
 **Deliverables:**
 
    •	Detailed Report: Summarizing methods, findings, and recommendations.
+   
    •	Visualizations: Charts and other graphics to present key insights.
+   
    •	Presentation: For stakeholders, communicating important findings and suggesting future actions.
 
 ![image](https://github.com/user-attachments/assets/25990da3-e528-4876-a73c-a93acc2683e0)
@@ -62,7 +69,9 @@ Overview of the Projects.
 **Dataset:** The dataset includes information about rental properties in Vancouver with unresolved by-law issues. Key features are:
 
    •	Geo_Local_Area: Geographic location of the rental units
+   
    •	Total Units: Number of rental units
+   
    •	Total Issues: Number of unresolved rental issues
 
 **Methodology:**
@@ -70,6 +79,7 @@ Overview of the Projects.
 1.	Data Collection and Preparation:
    
    •	Load the dataset from S3 storage (s3://foodhousing-trf-sai/Rental_Records/Data-Cleaning/System/).
+   
    •	Perform initial data cleaning to handle missing values, correct data types, using AWS data brew and ensure data consistency.
 
 3.	Descriptive Statistics:
@@ -79,7 +89,9 @@ Overview of the Projects.
 5.	Data Visualization:
    
    •	Create visualizations to illustrate key insights
+   
    •	Bar Charts: Showing the number of unresolved issues and total units by area.
+   
    •	Histograms and Boxplots: To analyze the distribution of continuous variables like the total number of units and issues.
 
 
@@ -87,6 +99,7 @@ Overview of the Projects.
 7.	Issue Rate Analysis:
    
    •	Calculate the issue rate for each area by comparing the total number of unresolved issues with the total units.
+   
    •	Identify areas with high issue rates to prioritize for intervention.
 
 9.	Insights and Findings:
@@ -130,33 +143,41 @@ The data wrangling process involved various datasets, including:
 1. Data Collection
 
 •Gathered datasets from various sources, including internal HR databases, safety incident reporting systems, and worker management platforms.
+
 •Ensured all relevant datasets were identified for a comprehensive view of HR and OHS metrics.
 
 2. Data Assessment
 
 •Conducted an initial assessment of data quality to identify issues such as missing values, duplicates, and inconsistencies across different datasets.
+
 •Documented data types, formats, and any discrepancies.
 
 3. Data Cleaning
 
 •Addressed missing values through appropriate methods based on their significance and context.
+
 •Removed duplicate records and corrected inconsistencies in data formats.
+
 •Normalized categorical variables to ensure consistency across datasets.
 
 4. Data Transformation
 
 •Performed data type conversions to ensure all fields were in suitable formats for analysis.
+
 •Derived new features that aided in analytics, such as incident frequency, resolution time, and worker tenure.
+
 •Aggregated data as necessary to ensure it aligned with the intended analysis.
 
 5. Data Consolidation
 
 •Merged datasets into a unified HR and OHS database, ensuring all relevant information was accurately linked through unique identifiers.
+
 •Created a comprehensive view of each worker by combining HR records, safety incidents, and supervisor reports.
 
 6. Documentation and Validation
 
 •Documented the data wrangling process, including data sources, cleaning methods, and transformations applied.
+
 •Validated the final dataset through exploratory data analysis (EDA) to confirm accuracy and completeness.
 
 **Tools and Technologies**
@@ -187,8 +208,11 @@ As City of Vancouver continued to expand its operations and data sources, issues
 The project focused on the following key areas:
 
 •Data Profiling: Analyzing existing datasets to assess quality levels.
+
 •Data Cleansing: Developing processes to correct inaccuracies and eliminate duplicates.
+
 •Data Validation: Implementing validation rules and checks to ensure data integrity.
+
 •Monitoring and Reporting: Establishing ongoing monitoring processes and dashboards to track data quality metrics.
 
 **Methodology**
@@ -196,11 +220,13 @@ The project focused on the following key areas:
 1. Current State Assessment
 
 •Conducted a thorough analysis of current data sources, workflows, and existing data quality challenges.
+
 •Identified key datasets that significantly impact business operations and decision-making.
 
 2. Data Profiling
 
 •Utilized data profiling tools to assess the quality of identified datasets, focusing on completeness, uniqueness, validity, consistency, and accuracy.
+
 •Documented findings to highlight areas requiring immediate attention.
 
 3. Establish Data Quality Metrics
@@ -210,18 +236,23 @@ The project focused on the following key areas:
 4. Data Cleansing Processes
 
 •Developed and implemented procedures for data cleansing, which included:
+
 •Removing duplicates and correcting errors.
+
 •Standardizing data formats and values.
+
 •Filling in missing values using appropriate imputation techniques.
 
 5. Validation Rules and Procedures
 
 •Set up validation rules for new data entries to reduce the risk of poor-quality data being introduced into the system.
+
 •Created data entry guidelines to promote consistency and accuracy.
 
 6. Monitoring and Reporting
 
 •Implemented monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
+
 •Scheduled regular reports to review data quality trends and performance against established KPIs.
 
 7. Feedback Mechanism
@@ -230,15 +261,20 @@ The project focused on the following key areas:
 **Tools and Technologies**
 
 •AWS Glue: For data extraction, transformation, and loading (ETL) pipeline creation.
+
 •"Evaluate Data Quality" Transform: To apply specific rules ensuring data meets high standards.
+
 •S3 Storage: For storing processed data in separate "passed" and "failed" folders.
 
 
 **Deliverables**
 
 •A comprehensive Data Quality Control plan detailing processes, metrics, and responsibilities.
+
 •Documentation of data quality metrics and KPIs being tracked.
+
 •Cleaned and validated datasets ready for analysis and reporting.
+
 •A monitoring dashboard that visualizes data quality metrics in real-time.
 
 **Timeline**
